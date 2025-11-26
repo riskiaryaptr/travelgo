@@ -1254,7 +1254,7 @@
                     <!-- card 1 -->
                     <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
                         <div class="relative h-45">
-                            <img src="{{ asset('assets/images/images-16.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
+                            <img src="{{ asset('assets/images/images-6.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
                             
                             <div class="absolute top-4 left-0 bg-red-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
                                 Round Trip
@@ -1313,7 +1313,7 @@
                     <!-- card 2 -->
                     <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
                         <div class="relative h-45">
-                            <img src="{{ asset('assets/images/images-17.jpeg') }}" alt="The Mulia Bali" class="w-full h-full object-cover">
+                            <img src="{{ asset('assets/images/images-7.jpg') }}" alt="The Mulia Bali" class="w-full h-full object-cover">
                             
                             <div class="absolute top-4 left-0 bg-purple-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
                                 Round Trip
@@ -1372,7 +1372,7 @@
                     <!-- card 3 -->
                     <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
                         <div class="relative h-45">
-                            <img src="{{ asset('assets/images/images-18.jpg') }}" alt="Ayana Resort and Spa Bali" class="w-full h-full object-cover">
+                            <img src="{{ asset('assets/images/images-8.jpg') }}" alt="Ayana Resort and Spa Bali" class="w-full h-full object-cover">
                             
                             <div class="absolute top-4 left-0 bg-orange-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
                                 Round Trip
@@ -1431,7 +1431,7 @@
                     <!-- card 4 -->
                     <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
                         <div class="relative h-45">
-                            <img src="{{ asset('assets/images/images-19.jpeg') }}" alt="Ayana Resort and Spa Bali" class="w-full h-full object-cover">
+                            <img src="{{ asset('assets/images/images-9.jpg') }}" alt="Ayana Resort and Spa Bali" class="w-full h-full object-cover">
                             
                             <div class="absolute top-4 left-0 bg-orange-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
                                 Round Trip
