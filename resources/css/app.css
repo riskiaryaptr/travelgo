@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import 'tailwindcss';  
+
+@layer base {
+    
+    html {
+        scroll-behavior: smooth;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .overflow-x-auto::-webkit-scrollbar {
+        display: none;
+    }
+
+    .overflow-x-auto {
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        box-sizing: border-box;
+        border: 1px solid white;    
+        padding: 2px;    
+        background-color: white;
+        background-clip: content-box;    
+        border-radius: 50%;
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-clip: border-box;
+        opacity: 1;
+    }
+
+    .airport-dropdown {
+        position: absolute;
+        z-index: 9999 !important;
+        transform-origin: top;
+        transform: scaleY(0.3); 
+        opacity: 0;
+        transition:
+        transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1),
+        opacity 0.28s ease-out;
+        will-change: transform, opacity;
+    }
+
+    .airport-dropdown.show {
+        transform: scaleY(1);        
+        opacity: 1;
+    }
+
+    .airport-dropdown.hide-up {
+        transform: scaleY(0);  
+        opacity: 0;
+    }
+
+    #double-checkin-calendar {
+        transform-origin: top;
+        transform: scaleY(0.2);
+        opacity: 0;
+        transition:
+        transform 0.32s cubic-bezier(0.25, 0.8, 0.25, 1),
+        opacity 0.25s ease-out;
+    }
+
+    #double-checkin-calendar.show {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    #guests-rooms-dropdown {
+        transform-origin: top;
+        transform: scaleY(0.2);
+        opacity: 0;
+        transition:
+        transform 0.32s cubic-bezier(0.25, 0.8, 0.25, 1),
+        opacity 0.25s ease-out;
+        will-change: transform, opacity;
+    }
+
+    #guests-rooms-dropdown.show {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    #allProductsBody { scrollbar-width: none; -ms-overflow-style: none; }
+    #allProductsBody::-webkit-scrollbar { width: 0; height: 0; }
+
+    #popularViewport {
+        max-width: 100%;
+    }
+    
+    @media (max-width: 640px) {
+        .swiper-pagination {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+    }
+
+    @media (min-width: 1078px) and (max-width: 1200px) {
+        #popularViewport {
+            max-width: calc(8 * (120px + 8px));
+        }
+    }
+
+    @media (min-width: 1201px) {
+        #popularViewport {
+            max-width: calc(9 * (120px + 8px));
+        }
+    }
+
+    @media (max-width: 1077px) {
+        #popularPrev, #popularNext {
+            display: none !important;
+        }
+    }
+}
