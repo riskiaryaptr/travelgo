@@ -1491,7 +1491,114 @@
         </div>
 
 
+        <!-- promotion fligth -->
+        <div class="relative max-w-6xl mx-auto mt-10">
+            <div class="xl:-mx-2 px-2">   
+                <div class="flex items-center gap-3">
+                    <img src="{{ asset('assets/icon/icon-7.webp') }}" alt="Discover" class="w-10 h-10">
+                    <h2 class="text-[21px] font-semibold font-nunito leading-normal tracking-wide text-gray-700">
+                        Fly More, Spend Less
+                    </h2>
+                </div>
 
+                <p class="text-gray-500 text-sm/6 font-semibold tracking-wide mb-5">
+                    Save more with <span class="text-blue-500">exclusive flight vouchers.</span>
+                </p>
+
+                <div class="mb-4">
+                    <div class="overflow-x-auto no-scrollbar">
+                        <div class="flex flex-nowrap gap-3 w-max">
+                            <button class="flex-shrink-0 px-10 py-1.5 text-white font-semibold text-sm bg-blue-500 rounded-full shadow-sm">
+                                <span>Domestic Flights</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>International Flights</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Last Minute Deals</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Airline Partners</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Premium Class</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative overflow-hidden py-6 -mx-2">
+                    <button id="prevBtnBestDeals" class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white text-blue-500 p-1.5 rounded-full shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    
+                    <div class="overflow-hidden">
+                        <div id="carousel-bestdeals" class="flex transition-transform duration-500 ease-in-out">
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-15.jpg') }}" alt="Allo Bank" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-17.jpg') }}" alt="Go Thailand" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-18.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-16.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-19.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-20.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-21.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-22.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="nextBtnBestDeals" class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white text-blue-500 p-1.5 rounded-full shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
 
 
 
