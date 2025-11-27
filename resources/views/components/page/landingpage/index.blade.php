@@ -1600,6 +1600,758 @@
             </div>
         </div>
 
+        <!-- domestik flight -->
+        <div class="relative max-w-6xl mx-auto mt-10">
+            <div class="xl:-mx-2 px-2">   
+                <div class="flex items-center gap-3">
+                    <img src="{{ asset('assets/icon/icon-9.webp') }}" alt="Discover" class="w-10 h-10">
+                    <h2 class="text-[21px] font-semibold font-nunito leading-normal tracking-wide text-gray-700">
+                        Domestic Flight Deals
+                    </h2>
+                </div>
+
+                <p class="text-gray-500 text-sm/6 font-semibold tracking-wide mb-5">
+                    Save more on your local <span class="text-blue-500">adventures</span>
+                </p>
+
+                <div class="mb-4">
+                    <div class="overflow-x-auto no-scrollbar">
+                        <div class="flex flex-nowrap gap-3 w-max">
+                            <button class="flex-shrink-0 px-10 py-1.5 text-white font-semibold text-sm bg-blue-500 rounded-full shadow-sm">
+                                <span>Jakarta</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Bandung</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Yogyakarta</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Semarang</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Surabaya</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Bali</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-3 py-6">
+                
+                    <!-- card 1 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-18.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
+                            
+                            <div class="absolute top-4 left-0 bg-red-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
+                                One Way
+                            </div>
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Pointianak - Jakarta</h3>                            
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide">
+                                        10 - 15 Nov 2026
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 2,500,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 1,675,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Garuda Indonesia Flight
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Mobile Voucher
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- card 2 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-19.jpg') }}" alt="The Mulia Bali" class="w-full h-full object-cover">
+                            
+                            <div class="absolute top-4 left-0 bg-purple-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
+                                One Way
+                            </div>
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Pointianak - Jakarta</h3>                           
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide">
+                                        3 - 15 februari 2022
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 10,500,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 7,675,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Citilink Flight
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Mobile Voucher
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-20.jpg') }}" alt="Ayana Resort and Spa Bali" class="w-full h-full object-cover">
+                            
+                            <div class="absolute top-4 left-0 bg-orange-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
+                                One Way
+                            </div>
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Pointianak - Jakarta</h3>                           
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide">
+                                        10 - 15 Januari 2024
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 3,500,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 2,675,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        AirAsia Flight
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Mobile Voucher
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>     
+
+                    <!-- card 4 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-21.jpg') }}" alt="Ayana Resort and Spa Bali" class="w-full h-full object-cover">
+                            
+                            <div class="absolute top-4 left-0 bg-orange-500 text-white text-xs/6 font-bold leading-normal tracking-wide px-3 py-1 rounded-r-full">
+                                One Way
+                            </div>
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Pointianak - Jakarta</h3>                           
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide">
+                                        8 - 20 Januari 2023
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 3,800,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 3,230,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Trans Nusa Flight
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Mobile Voucher
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>    
+                </div> 
+            </div>
+        </div>
+
+
+        <!-- promotion domestik -->
+        <div class="relative max-w-6xl mx-auto mt-10">
+            <div class="xl:-mx-2 px-2">   
+                <div class="flex items-center gap-3">
+                    <img src="{{ asset('assets/icon/icon-7.webp') }}" alt="Discover" class="w-10 h-10">
+                    <h2 class="text-[21px] font-semibold font-nunito leading-normal tracking-wide text-gray-700">
+                        Discover Dream Destinations
+                    </h2>
+                </div>
+
+                <p class="text-gray-500 text-sm/6 font-semibold tracking-wide mb-5">
+                    Exclusive discounts <span class="text-blue-500">for your next getaway.</span>
+                </p>
+
+                <div class="mb-4">
+                    <div class="overflow-x-auto no-scrollbar">
+                        <div class="flex flex-nowrap gap-3 w-max">
+                            <button class="flex-shrink-0 px-10 py-1.5 text-white font-semibold text-sm bg-blue-500 rounded-full shadow-sm">
+                                <span>Beach Escapes</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>City Breaks</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>City Adventures</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Island Getaways</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Mountain Retreats</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative overflow-hidden py-6 -mx-2">
+                    <button id="prevvilaapt" class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white text-blue-500 p-1.5 rounded-full shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    
+                    <div class="overflow-hidden">
+                        <div id="carousel-vilaapt" class="flex transition-transform duration-500 ease-in-out">
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-24.jpg') }}" alt="Allo Bank" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-25.jpg') }}" alt="Go Thailand" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-26.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-27.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-28.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-29.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-30.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+
+                            <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                                <a href="#" class="block w-full h-full">
+                                    <img src="{{ asset('assets/promo/promo-12.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="nextBtnvilaapt" class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white text-blue-500 p-1.5 rounded-full shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- area villa -->
+        <div class="relative max-w-6xl mx-auto mt-10">
+            <div class="xl:-mx-2 px-2">   
+                <div class="flex items-center gap-3">
+                    <img src="{{ asset('assets/icon/icon-12.webp') }}" alt="Discover" class="w-10 h-10">
+                    <h2 class="text-[21px] font-semibold font-nunito leading-normal tracking-wide text-gray-700">
+                        Diskon hingga 40% di Vila & Apt.
+                    </h2>
+                </div>
+
+                <p class="text-gray-500 text-sm/6 font-semibold tracking-wide mb-5">
+                    Find limited-time deals for <span class="text-blue-500">unforgettable travel.</span>
+                </p>
+
+                <div class="mb-4">
+                    <div class="overflow-x-auto no-scrollbar">
+                        <div class="flex flex-nowrap gap-3 w-max">
+                            <button class="flex-shrink-0 px-10 py-1.5 text-white font-semibold text-sm bg-blue-500 rounded-full shadow-sm">
+                                <span>Jakarta</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Semarang</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Surabaya</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Yogyakarta</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Bandung</span>
+                            </button>
+
+                            <button class="flex-shrink-0 px-10 py-1.5 text-blue-500 font-semibold text-sm bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <span>Bali</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-3 py-6">
+                
+                    <!-- card 1 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                       <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-10.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
+
+                            <img src="{{ asset('assets/icon/icon-13.webp') }}" alt="20% OFF" class="absolute bottom-0 left-0 h-7 w-auto rounded-tr-lg">
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Royal Samaja Villas</h3>
+                                <div class="flex items-center text-gray-500 text-sm/6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-blue-500 mr-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                    </svg>
+                                    <span class="line-clamp-1 text-xs/6 font-semibold leading-normal">
+                                        Uluwatu, Badung
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <div class="flex text-amber-400 text-xs">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide ml-1.5">
+                                        9.5
+                                    </span>
+                                </div>
+
+                                <span class="text-gray-400 text-xs/6 font-medium leading-normal tracking-wide">
+                                    (4,128 reviews)
+                                </span>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 5,800,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 4,640,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Nightly rate
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Not Including Tax
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- card 2 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-11.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
+
+                            <img src="{{ asset('assets/icon/icon-14.webp') }}" alt="20% OFF" class="absolute bottom-0 left-0 h-7 w-auto rounded-tr-lg">
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Wooden Ganeca Villas by GenuineHost</h3>
+                                <div class="flex items-center text-gray-500 text-sm/6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-blue-500 mr-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                    </svg>
+                                    <span class="line-clamp-1 text-xs/6 font-semibold leading-normal">
+                                        Ubud, Gianyar
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <div class="flex text-amber-400 text-xs">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide ml-1.5">
+                                        9.7
+                                    </span>
+                                </div>
+
+                                <span class="text-gray-400 text-xs/6 font-medium leading-normal tracking-wide">
+                                    (5,421 reviews)
+                                </span>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 7,200,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 6,480,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Nightly rate
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Not Including Tax
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>  
+
+                    <!-- card 3 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-12.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
+
+                            <img src="{{ asset('assets/icon/icon-13.webp') }}" alt="20% OFF" class="absolute bottom-0 left-0 h-7 w-auto rounded-tr-lg">
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Bali Beach Glamping</h3>
+                                <div class="flex items-center text-gray-500 text-sm/6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-blue-500 mr-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                    </svg>
+                                    <span class="line-clamp-1 text-xs/6 font-semibold leading-normal">
+                                        Tabanan, Tabanan
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <div class="flex text-amber-400 text-xs">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide ml-1.5">
+                                        9.1
+                                    </span>
+                                </div>
+
+                                <span class="text-gray-400 text-xs/6 font-medium leading-normal tracking-wide">
+                                    (6,328 reviews)
+                                </span>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 5,500,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 4,675,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Nightly rate
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Not Including Tax
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>   
+
+                    <!-- card 4 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group">
+                        <div class="relative h-45">
+                            <img src="{{ asset('assets/images/images-13.jpg') }}" alt="The Ritz-Carlton, Nusa Dua" class="w-full h-full object-cover">
+
+                            <img src="{{ asset('assets/icon/icon-14.webp') }}" alt="20% OFF" class="absolute bottom-0 left-0 h-7 w-auto rounded-tr-lg">
+                        </div>
+
+                        <div class="pb-2 pt-4 px-2 border border-gray-200 border-t-0 rounded-b-2xl">
+                            <div class="mb-3">
+                                <h3 class="text-md font-semibold text-gray-600 leading-normal tracking-wide mb-1 line-clamp-1">Berry Amour Romantic Villas</h3>
+                                <div class="flex items-center text-gray-500 text-sm/6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-blue-500 mr-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                    </svg>
+                                    <span class="line-clamp-1 text-xs/6 font-semibold leading-normal">
+                                        Seminyak, Badung
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center mb-3">
+                                <div class="flex items-center mr-2">
+                                    <div class="flex text-amber-400 text-xs">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="text-blue-500 font-semibold text-xs/6 leading-normal tracking-wide ml-1.5">
+                                        8.9
+                                    </span>
+                                </div>
+
+                                <span class="text-gray-400 text-xs/6 font-medium leading-normal tracking-wide">
+                                    (2,817 reviews)
+                                </span>
+                            </div>
+
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <p class="text-gray-400 text-xs/6 line-through leading-normal tracking-wide">
+                                        Rp 3,800,000
+                                    </p>
+                                    <p class="text-blue-600 text-sm/6 font-semibold leading-normal tracking-wide">
+                                        Rp 3,230,000
+                                    </p>
+                                </div>
+
+                                <div class="text-right">
+                                    <p class="text-xs/6 font-medium leading-normal tracking-wide text-gray-500 mb-2">
+                                        Nightly rate
+                                    </p>
+                                    <div class="bg-blue-50 text-blue-600 font-medium leading-normal tracking-wide text-xs/6 px-2 py-1 rounded-md">
+                                        Not Including Tax
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex space-x-2 pt-3 border-t border-gray-200">
+                                <button class="flex-1 bg-blue-500 hover:bg-blue-500 text-white text-sm/6 font-semibold py-1 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <span>View Deal</span>
+                                </button>
+
+                                <button class="w-10 h-10 flex items-center justify-center text-blue-500 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </div>
 
 
 
