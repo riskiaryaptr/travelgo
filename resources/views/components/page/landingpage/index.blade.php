@@ -540,7 +540,72 @@
             </div>
         </div>
 
+        <!--- area card promosi -->
+        <div class="relative max-w-6xl mx-auto">
+            <button id="prevBtn" class="absolute left-0 xl:-left-3 top-1/2 -translate-y-1/2 z-20 bg-white text-blue-500 p-1.5 rounded-full shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
 
+            <div class="xl:-mx-2 overflow-hidden">
+                <div id="carousel" class="flex transition-transform duration-500 ease-in-out h-full">
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-8.jpg') }}" alt="Allo Bank" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-7.jpg') }}" alt="Go Thailand" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-6.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-5.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-4.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-3.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-2.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+
+                    <div class="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 px-2">
+                        <a href="#" class="block w-full h-full">
+                            <img src="{{ asset('assets/promo/promo-1.jpg') }}" alt="HSBC" class="w-full aspect-[16/8] object-cover rounded-xl hover:opacity-90 transition-opacity">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <button id="nextBtn" class="absolute right-0 xl:-right-3 top-1/2 -translate-y-1/2 z-20 bg-white text-blue-500 p-1.5 rounded-full shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>
 
 
 
