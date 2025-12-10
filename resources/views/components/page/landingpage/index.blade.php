@@ -528,7 +528,7 @@
                                             <span>Discover the hotel deals and promos to make your stay even more affordable.</span>
 
                                             <a href="/" class="text-blue-500 text-xs/6 font-bold tracking-wide leading-normal">
-                                                <span>Check the hotel promos now!</span>
+                                                <span>Check the hotel promo now!</span>
                                             </a>
                                         </p>
                                     </div>
