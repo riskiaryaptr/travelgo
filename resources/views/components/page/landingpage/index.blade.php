@@ -99,11 +99,6 @@
                                     </button>
 
                                     <button class="flex items-center px-4 py-1 text-sm/6 leading-normal font-medium rounded-full text-gray-600 transition-all duration-200 ease-in-out hover:bg-blue-50 hover:text-blue-500">
-                                        <img src="{{ asset('assets/icon/icon-11.webp') }}" alt="Attractions & Tours" class="h-7 w-7 mr-2">
-                                        <span>Flight TBD</span>
-                                    </button>
-
-                                    <button class="flex items-center px-4 py-1 text-sm/6 leading-normal font-medium rounded-full text-gray-600 transition-all duration-200 ease-in-out hover:bg-blue-50 hover:text-blue-500">
                                         <img src="{{ asset('assets/icon/icon-28.webp') }}" alt="Attractions & Tours" class="h-7 w-7 mr-2">
                                         <span>Visa Protection</span>
                                     </button>
